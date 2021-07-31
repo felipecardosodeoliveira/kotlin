@@ -1,0 +1,5 @@
+fun main() {
+    var welcome = "Bem vindo(a)"
+    var name = "Felipe"
+    println("$welcome, ${name.capitalize()}!")
+}
