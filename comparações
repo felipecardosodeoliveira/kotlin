@@ -1,0 +1,22 @@
+const val LESS = -1
+const val EQUAL = 0 
+const val MORE = 1
+
+fun main() {
+	
+    var a = 10
+    var b = 20 
+    var c = 10
+    
+    println(a > b) // false
+    println(a < b) // true
+    
+    println(a.compareTo(b) === MORE)
+    println(b.compareTo(a) === MORE) 
+	println(a.compareTo(c) === EQUAL)
+    
+   println(a.compareTo(b) === MORE)
+
+
+    
+}
