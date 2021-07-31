@@ -1,0 +1,34 @@
+const val MIN_AGE = 16
+const val MAX_AGE  = 68 
+
+fun podeDoarSangue(age: Int): Boolean {
+    if (age in MIN_AGE..MAX_AGE && age <= MAX_AGE) {
+        return true
+    } else {
+        return false
+    }
+}
+
+fun main() {
+// In and Random
+	
+//     var numbers = listOf(1, 0, 2)
+//     println(0 in numbers)
+    
+//     var bingo = listOf(0, 1, 2, 3, 5)
+//     var number = (0..5).random()
+//     println(number)
+//     println(number in bingo)
+ 
+var age = (10..100).random()
+var resultado = podeDoarSangue(age)
+
+if (resultado) {
+	println("Pode doar sim!")
+    
+} else {
+    println("Sua idade não permite ser um doador!")
+    
+}     
+    
+}
