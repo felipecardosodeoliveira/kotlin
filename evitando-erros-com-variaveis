@@ -1,0 +1,14 @@
+fun main() {
+    /**
+     *  Ao declarar uma variáveis, atribuir um valor ou definir que tipo de dado ela deve receber**/
+	var currentAge:Int
+    currentAge = 28
+	
+    println(currentAge)
+    
+    
+    var currentYear = "2021"
+    currentYear= 2021.toString()
+    println(currentYear)
+
+}
