@@ -1,0 +1,22 @@
+fun getFullName(name:String, lastName: String) = "$name $lastName"
+
+fun calculate(a: Double, b: Double, fn:(Double, Double)->Double):Double {
+    val result = fn(a, b)
+    return result
+}
+
+fun sum(a:Double, b:Double) = a.plus(b)
+
+fun sub(a:Double, b:Double) = a.minus(b)
+
+
+fun main() {
+	println(getFullName("Felipe", "Cardoso"))	
+	
+    val resSum = calculate(10.0, 2.9, ::sum)
+    println("Valor da soma de (10.0 + 2.9) é : " + resSum)
+    
+    val resSub = calculate(10.9, 0.9, ::sub)
+    println("Valor da subtração de (10.9 - 0.9) é : " + resSub)
+
+}
