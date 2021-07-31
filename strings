@@ -1,5 +1,18 @@
 fun main() {
-    var welcome = "Bem vindo(a)"
-    var name = "Felipe"
-    println("$welcome, ${name.capitalize()}!")
+// 	var welcome = "Bem vindo(a)"
+//     var name = "Felipe"
+//     println("$welcome, ${name.capitalize()}!") 
+
+	var str = ""
+    println(str.isEmpty()) // true uma string é vazia quando possui o tamanho 0 
+    
+    str = " "
+    println(str.isEmpty()) // false, pois a string possui um espaço vazio que conta como um caracter
+    println(str.length) 
+    
+    println(str.isBlank()) // true
+    
+    println(str.isNullOrBlank()) // true, string possui um espaço
+    println(str.isNullOrEmpty()) // false
+
 }
