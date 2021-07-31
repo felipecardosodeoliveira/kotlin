@@ -1,0 +1,14 @@
+
+fun main() {
+	var currentAge = 30    
+    println(currentAge)
+    
+    val userName:String
+	userName = "Felipe"
+    println(userName)
+    
+    
+    println(QTDE_USER_PAGE)
+
+
+}
