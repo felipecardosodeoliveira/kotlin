@@ -1,0 +1,12 @@
+fun sum (a: Double, b: Double): Double {
+    return a + b
+}
+
+fun sub (a: Double, b: Double): Double {
+    return a - b
+}
+
+
+fun main() {
+ 	println(sum(3.3, 2.2))
+    println(sub(3.toDouble(), 2.toDouble()))
